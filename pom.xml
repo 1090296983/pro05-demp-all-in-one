@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>zookeeper</module>
+        <module>kafka300</module>
     </modules>
 
     <dependencies>
