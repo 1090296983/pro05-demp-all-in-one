@@ -24,12 +24,12 @@ public class CustomProducer {
 
         KafkaProducer<String, String> kafkapu = new KafkaProducer<>(pro);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5000; i++) {
 
           //  kafkapu.send(new ProducerRecord<>("first","zzy1" + String.valueOf(i)));
 //
 
-            kafkapu.send(new ProducerRecord<String,String>("first","zzy1"), new Callback() {
+            kafkapu.send(new ProducerRecord<String,String>("first2","zzy1"), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata metadata, Exception exception) {
 

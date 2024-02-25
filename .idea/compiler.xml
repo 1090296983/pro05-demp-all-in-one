@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka300" />
+        <module name="flink117" />
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>

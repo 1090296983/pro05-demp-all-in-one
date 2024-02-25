@@ -11,6 +11,7 @@
     <modules>
         <module>zookeeper</module>
         <module>kafka300</module>
+        <module>flink117</module>
     </modules>
 
     <dependencies>
